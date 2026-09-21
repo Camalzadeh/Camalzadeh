@@ -48,8 +48,8 @@ runs on my laptop has not finished teaching me anything yet.
 | **[ExTracker](https://github.com/Camalzadeh/extracker)** | Driving-experience tracker: trip logging, chart analytics over weather, traffic and road type, and achievement badges earned from real driving stats. | PHP 8, MySQL, Chart.js, Bootstrap 5 |
 | **[C/C++ Pro Builder](https://github.com/Camalzadeh/cpp-pro-builder)** | A VS Code extension that compiles single C and C++ files with no CMake, and keeps every binary out of the source tree. | TypeScript, VS Code API |
 | **[Maximum Secure Static Site](https://github.com/Camalzadeh/max_secure_static_site)** | A client-side access portal hardened on purpose — obfuscation, a steganographic payload carrier, closed Shadow DOM and self-defending checksums. **[Live](https://camalzadeh.github.io/max_secure_static_site/)**. | JavaScript, Tailwind, custom build pipeline |
-| **[AZ Names for Odoo](https://github.com/Camalzadeh/odoo19_test)** | An Odoo 19 module that imports Azerbaijani given names and their meanings from opendata.az and makes them selectable on contacts. | Python, Odoo 19 |
-| **[Chess (C++)](https://github.com/Camalzadeh/oop_cpp_pws)** · **[DSA exercises](https://github.com/Camalzadeh/dsa2_exercises)** | A full text-mode chess engine — castling, en passant, promotion, checkmate and stalemate detection — and hand-rolled dictionaries, hash maps, heaps and graphs in C. | C++, C |
+| **[AZ Names for Odoo](https://github.com/Camalzadeh/odoo_az_names)** | An Odoo 19 module that imports Azerbaijani given names and their meanings from opendata.az and makes them selectable on contacts. | Python, Odoo 19 |
+| **[Chess (C++)](https://github.com/Camalzadeh/cpp_chess_engine)** · **[DSA exercises](https://github.com/Camalzadeh/dsa2_exercises)** | A full text-mode chess engine — castling, en passant, promotion, checkmate and stalemate detection — and hand-rolled dictionaries, hash maps, heaps and graphs in C. | C++, C |
 
 </details>
 

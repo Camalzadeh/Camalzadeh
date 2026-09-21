@@ -32,6 +32,7 @@ runs on my laptop has not finished teaching me anything yet.
 | :--- | :--- | :--- | :--- |
 | **[InMyTime](https://github.com/Camalzadeh/in_my_time)** | Collaborative scheduling — propose days and hours, share one link, watch the availability grid fill in. Nobody needs an account. | Next.js (App Router), MongoDB, Ably, GitHub Actions | **[inmytime.me](https://inmytime.me)** |
 | **[Portfolio](https://github.com/Camalzadeh/portfolio)** | My own site, with a built-in admin panel that edits its content — projects, experience and academic record, EN/AZ. Self-hosted, deployed by `git push`. | Next.js 16, React 19, TypeScript, PostgreSQL, Docker, GHCR | **[jamalzadeh.inmytime.me](https://jamalzadeh.inmytime.me)** |
+| **Maktap** <br/><sub>source private</sub> | A digital platform for schools — a Flutter app on a Django backend, running on my own server behind Caddy. Images are built by Actions and the host pulls them itself; nothing is pushed to it. | Flutter, Django, PostgreSQL, Docker, GHCR | **[maktap.inmytime.me](https://maktap.inmytime.me)** |
 | **[Signa](https://github.com/Camalzadeh/signa)** | Radio-signal security scanner — analyses WiFi, cellular and Bluetooth for threats. One codebase, four operating systems. Written for the KotlinConf contest. | Kotlin Multiplatform, Compose Multiplatform, Gemini AI, Room, Koin | [Android · Windows · macOS · Linux releases](https://github.com/Camalzadeh/signa/releases) |
 | **[Key Distribution Center](https://github.com/Camalzadeh/key_distribution_center)** | The key distribution problem, end to end: a per-message symmetric key wrapped in the recipient's RSA public key. Caesar, Vigenère, Playfair and Rail Fence implemented from scratch. | Java 17, Spring Boot 3, PostgreSQL, Docker | **[kdc.inmytime.me](https://kdc.inmytime.me)** |
 | **[AZira](https://github.com/Camalzadeh/AZira_mobile)** | Identifies crop pests from a photo in seconds, with treatment advice in AZ/EN/RU. The model runs on the device, so it works in a field with no signal. | Flutter, Riverpod, TFLite (FastViT T12) | [APK releases](https://github.com/Camalzadeh/AZira_mobile/releases) |
@@ -76,9 +77,15 @@ runs on my laptop has not finished teaching me anything yet.
   </tr>
   <tr>
     <td><b>Ops</b></td>
-    <td><img height="38" src="https://skillicons.dev/icons?i=docker,githubactions,linux,nginx,vercel,gcp" /></td>
+    <td><img height="38" src="https://skillicons.dev/icons?i=docker,githubactions,linux,vercel,gcp" /></td>
+  </tr>
+  <tr>
+    <td><b>Infrastructure</b></td>
+    <td><sub><b>Caddy</b> (automatic TLS) · <b>GHCR</b> · <b>pull-based deploy</b> — the host checks for a new image every five minutes, backs the database up, migrates, restarts · shared <b>PostgreSQL</b> · nightly backups and health checks</sub></td>
   </tr>
 </table>
+
+<sub>Three of the sites linked above run on one server I administer myself — DNS, TLS, backups and the deploy pipeline included. Some of the work behind these skills, the Django and Redis among it, is in private repositories.</sub>
 
 ---
 

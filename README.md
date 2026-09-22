@@ -1,4 +1,4 @@
-<h1 align="center">Hümbət Camalov</h1>
+<h1 align="center">Humbat Jamalov</h1>
 
 <p align="center">
   Software engineer — backend systems, cross-platform mobile, and the deployment
